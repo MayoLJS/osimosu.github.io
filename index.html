@@ -5,6 +5,7 @@
     Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
+    
 <head>
     <title>Olumayowa Osimosu | Data Analyst Portfolio</title>
     <meta charset="utf-8" />
@@ -34,8 +35,32 @@
             padding-bottom: 2em;
             margin-bottom: 2em;
         }
+
+        /* About section with image */
+        #about .inner {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 2rem;
+        }
+
+        #about .about-text {
+            flex: 1 1 60%;
+        }
+
+        #about .about-image {
+            flex: 1 1 35%;
+            max-width: 250px;
+        }
+
+        #about .about-image img {
+            width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
     </style>
 </head>
+
 <body class="is-preload">
 
 
@@ -66,15 +91,21 @@
     </nav>
 
     <div id="main">
+        
     <!-- About Me Section -->
     <section id="about">
         <div class="inner">
-            <header class="major">
-                <h2>About Me</h2>
-            </header>
-            <p>I’m a data analyst based in Glasgow with strong experience in transforming large datasets into actionable insights. My core skills include data cleaning, automation, and visualization using tools like Excel, SQL, Python (Pandas), and Power BI.</p>
-            <p>At Ieng Group, I manage performance tracking for 5,000+ corrective maintenance projects. I’ve helped generate over £25,000 in monthly revenue with a 35% profit margin by analyzing job performance and cost data. I also built dashboards that guide decision-making for telecom operations.</p>
-            <p>I bring a strong foundation in communication and collaboration, gained from both technical and customer-facing roles. I'm passionate about helping businesses understand their data to drive better decisions.</p>
+            <div class="about-text">
+                <header class="major">
+                    <h2>About Me</h2>
+                </header>
+                <p>I’m a data analyst based in Glasgow with strong experience in transforming large datasets into actionable insights. My core skills include data cleaning, automation, and visualization using tools like Excel, SQL, Python (Pandas), and Power BI.</p>
+                <p>At Ieng Group, I manage performance tracking for 5,000+ corrective maintenance projects. I’ve helped generate over £25,000 in monthly revenue with a 35% profit margin by analyzing job performance and cost data. I also built dashboards that guide decision-making for telecom operations.</p>
+                <p>I bring a strong foundation in communication and collaboration, gained from both technical and customer-facing roles. I'm passionate about helping businesses understand their data to drive better decisions.</p>
+            </div>
+            <div class="about-image">
+                <img src="images/your-photo.jpg" alt="Olumayowa Osimosu">
+            </div>
         </div>
     </section>
 
